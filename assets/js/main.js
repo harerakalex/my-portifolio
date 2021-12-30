@@ -70,7 +70,6 @@ const myFunction = () => {
    */
   let backtotop = select('.back-to-top')
   if (backtotop) {
-    console.log(skills[0])
     const toggleBacktotop = () => {
       if (window.scrollY > 100) {
         backtotop.classList.add('active')
